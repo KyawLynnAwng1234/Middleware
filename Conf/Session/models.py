@@ -18,4 +18,5 @@ class Notification(models.Model):
     content_object = GenericForeignKey('content_type', 'object_id')
     updated_at=models.DateTimeField(auto_now=True,blank=True,null=True)
     created_at = models.DateTimeField(auto_now_add=True,blank=True,null=True)
+
     
