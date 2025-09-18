@@ -5,4 +5,4 @@ from .models import *
 # Register your models here.
 admin.site.register(Author)
 admin.site.register(Notification)
-admin.site.register(Book)
+
